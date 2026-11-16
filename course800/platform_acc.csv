@@ -1,0 +1,12 @@
+﻿id,experiment,platform_acc_percent,source
+E0,完整模型,97.38,Author-confirmed platform ACC; not independently verified
+E1,去掉对比度,95.71,Author-confirmed platform ACC; not independently verified
+E2,去掉HOG,94.76,Author-confirmed platform ACC; not independently verified
+E3,去掉全部传统特征,91.67,Author-confirmed platform ACC; not independently verified
+E4,分支A仅160尺度,96.67,Author-confirmed platform ACC; not independently verified
+E5,分支A仅96尺度,96.90,Author-confirmed platform ACC; not independently verified
+E6,仅分支A,91.90,Author-confirmed platform ACC; not independently verified
+E7,仅分支B,95.95,Author-confirmed platform ACC; not independently verified
+E8,不使用镜像训练增强,96.67,Author-confirmed platform ACC; not independently verified
+E9,不使用镜像推理,96.90,Author-confirmed platform ACC; not independently verified
+E10,两分支等权融合,96.90,Author-confirmed platform ACC; not independently verified

@@ -1,0 +1,12 @@
+{
+  "A_correct": 23824,
+  "B_correct": 23701,
+  "both_correct": 23661,
+  "A_only_correct": 163,
+  "B_only_correct": 40,
+  "both_wrong": 181,
+  "best_single": "E6",
+  "fusion_corrects_best_single": 40,
+  "fusion_regresses_best_single": 77,
+  "fusion_correct_when_both_wrong": 1
+}

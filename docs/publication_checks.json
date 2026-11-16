@@ -1,0 +1,10 @@
+{
+  "course_experiments": 11,
+  "course_predictions_match_historical_files": true,
+  "course_test_labels_required": false,
+  "course_acc_source": "Author-confirmed platform ACC; not independently verified",
+  "full_experiments": 11,
+  "full_metrics_independently_recomputed": true,
+  "full_thresholds_match_frozen_configurations": true,
+  "retraining_performed_during_packaging": false
+}

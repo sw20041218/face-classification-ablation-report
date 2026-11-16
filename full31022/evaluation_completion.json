@@ -1,0 +1,8 @@
+{
+  "elapsed_seconds": 198.13898509996943,
+  "frozen_config_sha256": "0dce2c40abea67d8fcebc18a251a5afa0346a0823ce08e3ea0c4c99636b020e5",
+  "configurations_unchanged": true,
+  "official_test_n": 24045,
+  "all_nonface_accuracy": 0.9803701393221044,
+  "test_labels_used_for_selection": false
+}

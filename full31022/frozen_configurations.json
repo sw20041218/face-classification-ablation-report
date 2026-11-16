@@ -1,0 +1,404 @@
+[
+  {
+    "id": "E0",
+    "title": "完整模型",
+    "options": {},
+    "branches": [
+      "A_full_multi_mirrortrain",
+      "B_full_r18_mirrortrain"
+    ],
+    "score_std": [
+      1.8899094914796872,
+      1.4404893177960825
+    ],
+    "weights": [
+      0.4,
+      0.6
+    ],
+    "threshold": -0.03793836403737268,
+    "validation": {
+      "n": 1397,
+      "correct": 1397,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "specificity": 1.0,
+      "balanced_accuracy": 1.0,
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "tn": 902,
+      "fp": 0,
+      "fn": 0,
+      "tp": 495,
+      "threshold": -0.03793836403737268
+    }
+  },
+  {
+    "id": "E1",
+    "title": "去掉对比度",
+    "options": {
+      "traditional": "hog"
+    },
+    "branches": [
+      "A_hog_multi_mirrortrain",
+      "B_hog_r18_mirrortrain"
+    ],
+    "score_std": [
+      1.9178971538605913,
+      1.6552614365337854
+    ],
+    "weights": [
+      0.4,
+      0.6
+    ],
+    "threshold": -0.16097170456958226,
+    "validation": {
+      "n": 1397,
+      "correct": 1397,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "specificity": 1.0,
+      "balanced_accuracy": 1.0,
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "tn": 902,
+      "fp": 0,
+      "fn": 0,
+      "tp": 495,
+      "threshold": -0.16097170456958226
+    }
+  },
+  {
+    "id": "E2",
+    "title": "去掉HOG",
+    "options": {
+      "traditional": "contrast"
+    },
+    "branches": [
+      "A_contrast_multi_mirrortrain",
+      "B_contrast_r18_mirrortrain"
+    ],
+    "score_std": [
+      1.9395160179728939,
+      1.3685108914930253
+    ],
+    "weights": [
+      0.4,
+      0.6
+    ],
+    "threshold": -0.039644198542141434,
+    "validation": {
+      "n": 1397,
+      "correct": 1397,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "specificity": 1.0,
+      "balanced_accuracy": 1.0,
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "tn": 902,
+      "fp": 0,
+      "fn": 0,
+      "tp": 495,
+      "threshold": -0.039644198542141434
+    }
+  },
+  {
+    "id": "E3",
+    "title": "去掉全部传统特征",
+    "options": {
+      "traditional": "none"
+    },
+    "branches": [
+      "A_none_multi_mirrortrain",
+      "B_none_r18_mirrortrain"
+    ],
+    "score_std": [
+      1.9648240554435383,
+      1.7135449673370153
+    ],
+    "weights": [
+      0.4,
+      0.6
+    ],
+    "threshold": -0.01997149448847152,
+    "validation": {
+      "n": 1397,
+      "correct": 1397,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "specificity": 1.0,
+      "balanced_accuracy": 1.0,
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "tn": 902,
+      "fp": 0,
+      "fn": 0,
+      "tp": 495,
+      "threshold": -0.01997149448847152
+    }
+  },
+  {
+    "id": "E4",
+    "title": "分支A仅160尺度",
+    "options": {
+      "sourceA": "160"
+    },
+    "branches": [
+      "A_full_160_mirrortrain",
+      "B_full_r18_mirrortrain"
+    ],
+    "score_std": [
+      2.0699732971272384,
+      1.4404893177960825
+    ],
+    "weights": [
+      0.4,
+      0.6
+    ],
+    "threshold": -0.011628803617362848,
+    "validation": {
+      "n": 1397,
+      "correct": 1397,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "specificity": 1.0,
+      "balanced_accuracy": 1.0,
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "tn": 902,
+      "fp": 0,
+      "fn": 0,
+      "tp": 495,
+      "threshold": -0.011628803617362848
+    }
+  },
+  {
+    "id": "E5",
+    "title": "分支A仅96尺度",
+    "options": {
+      "sourceA": "96"
+    },
+    "branches": [
+      "A_full_96_mirrortrain",
+      "B_full_r18_mirrortrain"
+    ],
+    "score_std": [
+      1.8790696818320274,
+      1.4404893177960825
+    ],
+    "weights": [
+      0.4,
+      0.6
+    ],
+    "threshold": -0.05668999563299347,
+    "validation": {
+      "n": 1397,
+      "correct": 1397,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "specificity": 1.0,
+      "balanced_accuracy": 1.0,
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "tn": 902,
+      "fp": 0,
+      "fn": 0,
+      "tp": 495,
+      "threshold": -0.05668999563299347
+    }
+  },
+  {
+    "id": "E6",
+    "title": "仅分支A",
+    "options": {
+      "single": "A"
+    },
+    "branches": [
+      "A_full_multi_mirrortrain"
+    ],
+    "score_std": [
+      1.8899094914796872
+    ],
+    "weights": [
+      1.0
+    ],
+    "threshold": -0.036693785841348386,
+    "validation": {
+      "n": 1397,
+      "correct": 1397,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "specificity": 1.0,
+      "balanced_accuracy": 1.0,
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "tn": 902,
+      "fp": 0,
+      "fn": 0,
+      "tp": 495,
+      "threshold": -0.036693785841348386
+    }
+  },
+  {
+    "id": "E7",
+    "title": "仅分支B",
+    "options": {
+      "single": "B"
+    },
+    "branches": [
+      "B_full_r18_mirrortrain"
+    ],
+    "score_std": [
+      1.4404893177960825
+    ],
+    "weights": [
+      1.0
+    ],
+    "threshold": -0.002431049283885739,
+    "validation": {
+      "n": 1397,
+      "correct": 1397,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "specificity": 1.0,
+      "balanced_accuracy": 1.0,
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "tn": 902,
+      "fp": 0,
+      "fn": 0,
+      "tp": 495,
+      "threshold": -0.002431049283885739
+    }
+  },
+  {
+    "id": "E8",
+    "title": "不使用镜像训练增强",
+    "options": {
+      "augment": false
+    },
+    "branches": [
+      "A_full_multi_originaltrain",
+      "B_full_r18_originaltrain"
+    ],
+    "score_std": [
+      1.7631339544699662,
+      1.2859599430732087
+    ],
+    "weights": [
+      0.4,
+      0.6
+    ],
+    "threshold": -0.09959487693423852,
+    "validation": {
+      "n": 1397,
+      "correct": 1397,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "specificity": 1.0,
+      "balanced_accuracy": 1.0,
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "tn": 902,
+      "fp": 0,
+      "fn": 0,
+      "tp": 495,
+      "threshold": -0.09959487693423852
+    }
+  },
+  {
+    "id": "E9",
+    "title": "不使用镜像推理",
+    "options": {
+      "inference": "original"
+    },
+    "branches": [
+      "A_full_multi_mirrortrain",
+      "B_full_r18_mirrortrain"
+    ],
+    "score_std": [
+      1.9004229538836175,
+      1.4432629137304651
+    ],
+    "weights": [
+      0.4,
+      0.6
+    ],
+    "threshold": -0.013410967352606051,
+    "validation": {
+      "n": 1397,
+      "correct": 1397,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "specificity": 1.0,
+      "balanced_accuracy": 1.0,
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "tn": 902,
+      "fp": 0,
+      "fn": 0,
+      "tp": 495,
+      "threshold": -0.013410967352606051
+    }
+  },
+  {
+    "id": "E10",
+    "title": "两分支等权融合",
+    "options": {
+      "weights": [
+        0.5,
+        0.5
+      ]
+    },
+    "branches": [
+      "A_full_multi_mirrortrain",
+      "B_full_r18_mirrortrain"
+    ],
+    "score_std": [
+      1.8899094914796872,
+      1.4404893177960825
+    ],
+    "weights": [
+      0.5,
+      0.5
+    ],
+    "threshold": -0.03773093433803534,
+    "validation": {
+      "n": 1397,
+      "correct": 1397,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "specificity": 1.0,
+      "balanced_accuracy": 1.0,
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "tn": 902,
+      "fp": 0,
+      "fn": 0,
+      "tp": 495,
+      "threshold": -0.03773093433803534
+    }
+  }
+]

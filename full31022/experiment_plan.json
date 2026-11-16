@@ -1,0 +1,116 @@
+{
+  "specs": [
+    [
+      "E0",
+      "完整模型",
+      {}
+    ],
+    [
+      "E1",
+      "去掉对比度",
+      {
+        "traditional": "hog"
+      }
+    ],
+    [
+      "E2",
+      "去掉HOG",
+      {
+        "traditional": "contrast"
+      }
+    ],
+    [
+      "E3",
+      "去掉全部传统特征",
+      {
+        "traditional": "none"
+      }
+    ],
+    [
+      "E4",
+      "分支A仅160尺度",
+      {
+        "sourceA": "160"
+      }
+    ],
+    [
+      "E5",
+      "分支A仅96尺度",
+      {
+        "sourceA": "96"
+      }
+    ],
+    [
+      "E6",
+      "仅分支A",
+      {
+        "single": "A"
+      }
+    ],
+    [
+      "E7",
+      "仅分支B",
+      {
+        "single": "B"
+      }
+    ],
+    [
+      "E8",
+      "不使用镜像训练增强",
+      {
+        "augment": false
+      }
+    ],
+    [
+      "E9",
+      "不使用镜像推理",
+      {
+        "inference": "original"
+      }
+    ],
+    [
+      "E10",
+      "两分支等权融合",
+      {
+        "weights": [
+          0.5,
+          0.5
+        ]
+      }
+    ]
+  ],
+  "params": {
+    "A": {
+      "C": 100.0,
+      "gamma": 0.1,
+      "amplitude": 4.0
+    },
+    "B": {
+      "C": 1.0,
+      "gamma": 2.0,
+      "amplitude": 0.5
+    }
+  },
+  "unique_branches": [
+    "A_full_multi_mirrortrain",
+    "B_full_r18_mirrortrain",
+    "A_hog_multi_mirrortrain",
+    "B_hog_r18_mirrortrain",
+    "A_contrast_multi_mirrortrain",
+    "B_contrast_r18_mirrortrain",
+    "A_none_multi_mirrortrain",
+    "B_none_r18_mirrortrain",
+    "A_full_160_mirrortrain",
+    "A_full_96_mirrortrain",
+    "A_full_multi_originaltrain",
+    "B_full_r18_originaltrain"
+  ],
+  "seed": 20261115,
+  "fit_count": 5580,
+  "validation_count": 1397,
+  "training_rule": "5580 fitting images; 1397 training-internal calibration images. No final refit on calibration samples; no test labels used for calibration.",
+  "threshold_objective": "Maximum validation ACC; ties choose first ascending-score split.",
+  "scale": "Validation score population standard deviation ddof=0; no centering.",
+  "weights": "Fixed historical 0.4/0.6; E10 uses 0.5/0.5. No new weight search.",
+  "protocol": "All official 6977 train and 24045 test images accounted for; test used for final evaluation only in this run. Historical 420 source samples influenced method development, so never-seen blind-test independence is not claimed."
+}

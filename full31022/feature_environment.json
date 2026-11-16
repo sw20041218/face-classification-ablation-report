@@ -1,0 +1,13 @@
+{
+  "python": "3.10.19 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 16:41:31) [MSC v.1929 64 bit (AMD64)]",
+  "torch": "2.5.1+cu121",
+  "torchvision": "0.20.1+cu121",
+  "numpy": "2.2.6",
+  "cuda_build": "12.1",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce MX570",
+  "batch_original": 16,
+  "forward_batch_including_mirrors": 32,
+  "precision": "float32; TF32 disabled",
+  "total_original_images": 31022
+}

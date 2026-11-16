@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv*/
+course800/features/
+course800/outputs/
+full31022/features/
+full31022/models/
+full31022/dataset/
+full31022/*.zip
+*.log

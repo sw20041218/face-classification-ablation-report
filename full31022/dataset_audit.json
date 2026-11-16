@@ -1,0 +1,21 @@
+{
+  "train": 6977,
+  "test": 24045,
+  "total": 31022,
+  "train_faces": 2429,
+  "train_nonfaces": 4548,
+  "test_faces": 472,
+  "test_nonfaces": 23573,
+  "fit_count": 5580,
+  "validation_count": 1397,
+  "fit_faces": 1934,
+  "validation_faces": 495,
+  "split_seed": 20261115,
+  "split_method": "First fold of StratifiedGroupKFold(5), groups are exact original-or-horizontal-mirror pixel hashes",
+  "train_duplicate_rows": 20,
+  "test_duplicate_rows": 0,
+  "train_test_exact_overlap": 0,
+  "train_test_original_or_mirror_overlap": 0,
+  "manifest_sha256": "f2544397fb6296c1921bca6be6fd3f31604c46fb1a4db76f1fc2bfa7deeb9a4b",
+  "limitations": "Official train/test split retained; no near-duplicate or identity audit. Historical method development used a 420-sample subset of this source, so official test is not claimed as never previously seen."
+}

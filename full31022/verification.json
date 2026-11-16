@@ -1,0 +1,160 @@
+{
+  "checks": [
+    {
+      "id": "E0",
+      "metrics_verified": true,
+      "txt_rows": 24045,
+      "validation_threshold_optimum_verified": true,
+      "threshold_is_frozen_validation_value": true
+    },
+    {
+      "id": "E1",
+      "metrics_verified": true,
+      "txt_rows": 24045,
+      "validation_threshold_optimum_verified": true,
+      "threshold_is_frozen_validation_value": true
+    },
+    {
+      "id": "E2",
+      "metrics_verified": true,
+      "txt_rows": 24045,
+      "validation_threshold_optimum_verified": true,
+      "threshold_is_frozen_validation_value": true
+    },
+    {
+      "id": "E3",
+      "metrics_verified": true,
+      "txt_rows": 24045,
+      "validation_threshold_optimum_verified": true,
+      "threshold_is_frozen_validation_value": true
+    },
+    {
+      "id": "E4",
+      "metrics_verified": true,
+      "txt_rows": 24045,
+      "validation_threshold_optimum_verified": true,
+      "threshold_is_frozen_validation_value": true
+    },
+    {
+      "id": "E5",
+      "metrics_verified": true,
+      "txt_rows": 24045,
+      "validation_threshold_optimum_verified": true,
+      "threshold_is_frozen_validation_value": true
+    },
+    {
+      "id": "E6",
+      "metrics_verified": true,
+      "txt_rows": 24045,
+      "validation_threshold_optimum_verified": true,
+      "threshold_is_frozen_validation_value": true
+    },
+    {
+      "id": "E7",
+      "metrics_verified": true,
+      "txt_rows": 24045,
+      "validation_threshold_optimum_verified": true,
+      "threshold_is_frozen_validation_value": true
+    },
+    {
+      "id": "E8",
+      "metrics_verified": true,
+      "txt_rows": 24045,
+      "validation_threshold_optimum_verified": true,
+      "threshold_is_frozen_validation_value": true
+    },
+    {
+      "id": "E9",
+      "metrics_verified": true,
+      "txt_rows": 24045,
+      "validation_threshold_optimum_verified": true,
+      "threshold_is_frozen_validation_value": true
+    },
+    {
+      "id": "E10",
+      "metrics_verified": true,
+      "txt_rows": 24045,
+      "validation_threshold_optimum_verified": true,
+      "threshold_is_frozen_validation_value": true
+    }
+  ],
+  "models": [
+    {
+      "model": "A_contrast_multi_mirrortrain.joblib",
+      "support_vectors": 185,
+      "dimension": 16745,
+      "all_finite": true
+    },
+    {
+      "model": "A_full_160_mirrortrain.joblib",
+      "support_vectors": 177,
+      "dimension": 8877,
+      "all_finite": true
+    },
+    {
+      "model": "A_full_96_mirrortrain.joblib",
+      "support_vectors": 190,
+      "dimension": 8877,
+      "all_finite": true
+    },
+    {
+      "model": "A_full_multi_mirrortrain.joblib",
+      "support_vectors": 202,
+      "dimension": 17069,
+      "all_finite": true
+    },
+    {
+      "model": "A_full_multi_originaltrain.joblib",
+      "support_vectors": 134,
+      "dimension": 17069,
+      "all_finite": true
+    },
+    {
+      "model": "A_hog_multi_mirrortrain.joblib",
+      "support_vectors": 189,
+      "dimension": 16708,
+      "all_finite": true
+    },
+    {
+      "model": "A_none_multi_mirrortrain.joblib",
+      "support_vectors": 193,
+      "dimension": 16384,
+      "all_finite": true
+    },
+    {
+      "model": "B_contrast_r18_mirrortrain.joblib",
+      "support_vectors": 1541,
+      "dimension": 2409,
+      "all_finite": true
+    },
+    {
+      "model": "B_full_r18_mirrortrain.joblib",
+      "support_vectors": 982,
+      "dimension": 2733,
+      "all_finite": true
+    },
+    {
+      "model": "B_full_r18_originaltrain.joblib",
+      "support_vectors": 677,
+      "dimension": 2733,
+      "all_finite": true
+    },
+    {
+      "model": "B_hog_r18_mirrortrain.joblib",
+      "support_vectors": 657,
+      "dimension": 2372,
+      "all_finite": true
+    },
+    {
+      "model": "B_none_r18_mirrortrain.joblib",
+      "support_vectors": 434,
+      "dimension": 2048,
+      "all_finite": true
+    }
+  ],
+  "configuration_sha256": "0dce2c40abea67d8fcebc18a251a5afa0346a0823ce08e3ea0c4c99636b020e5",
+  "all_passed": true,
+  "cnn_features_extracted": true,
+  "test_used_for_parameter_selection_this_run": false,
+  "historical_test_exposure_limitation": true
+}
